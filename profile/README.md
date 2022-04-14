@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-Mollybdenum - the element of scripting.
+Etcetera: *new slogan pending:tm:*
 
 We make mollermethod, Bracket, Luau.ml, https://troll.pages.dev, mollerspy, and probably more things you've never heard of.
 
