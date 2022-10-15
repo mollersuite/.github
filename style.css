@@ -1,0 +1,63 @@
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+circle {
+	animation: blink 10s infinite;
+}
+.middle {
+	animation-delay: 0.2s;
+}
+.bottom {
+	animation-delay: 0.4s;
+}
+svg {
+	fill: currentColor;
+}
+body > svg {
+	width: auto;
+	height: 30vmin;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.5;
+	overflow: hidden;
+}
+
+html {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+nav,
+footer {
+	display: flex;
+	align-items: center;
+	gap: 1ch;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+footer a {
+	transition: transform 0.2s;
+}
+footer a:hover {
+	transform: scale(1.2);
+}
+footer a:active {
+	transform: scale(0.8);
+}
+nav {
+	justify-content: center;
+}
+nav a {
+	text-decoration: none;
+}
