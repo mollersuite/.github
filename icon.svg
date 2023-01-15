@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 173.8 275.72" height="20">
-	<g transform="translate(-14.71 -21.92)" fill="currentColor">
-		<circle cx="51.84" cy="48.35" r="21.6" />
-		<circle cx="49.33" class="middle" cy="139.79" r="34.62" />
-		<circle cx="134.49" cy="152.6" r="21.6" class="middle" />
-		<circle cx="141.87" cy="68.56" r="46.65" />
-		<circle cx="117.39" cy="241.5" r="56.14" class="bottom" />
-	</g>
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 173.8 275.72"
+	height="20"
+	fill="currentColor">
+	<circle cx="37.13" cy="26.43" r="21.6" />
+	<circle cx="34.62" cy="117.87" r="34.62" class="middle" />
+	<circle cx="119.78" cy="130.68" r="21.6" class="middle" />
+	<circle cx="127.16" cy="46.64" r="46.65" />
+	<circle cx="102.68" cy="219.58" r="56.14" class="bottom" />
 </svg>
